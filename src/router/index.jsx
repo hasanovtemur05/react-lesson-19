@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 
 import App from "../App";
-import {SignIn, AdminLayout, StudentLayout, Student, Teacher, Course, Group, SignUp, Category } from '@pages'; 
+import {SignIn, AdminLayout, StudentLayout, Student, Teacher, Course, Group, SignUp, Category, Brand } from '@pages'; 
 
 const Index = () => {
   const router = createBrowserRouter(
@@ -17,6 +17,7 @@ const Index = () => {
         {/* Admin */}
         <Route path="admin-layout" element={<AdminLayout/>}>
         <Route index element={<Category />} />
+        <Route path="brand" element={<Brand />} />
         <Route path="student" element={<Student />} />
         <Route path="teacher" element={<Teacher />} />
         <Route path="course" element={<Course/>}/>

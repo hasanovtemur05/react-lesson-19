@@ -9,4 +9,7 @@ import GroupModal from './group-modal'
 import GroupTable from './group-table'
 import CategoryModal from './category-modal'
 import CategoryTable from './catigory-table'
-export { TeacherModal, TeacherTable ,StudentTable, StudentModal , CourseModal, CourseTable , GroupModal , GroupTable, CategoryModal, CategoryTable };
+import BrandModal from "./brand-modal"
+import BrandTable from "./brand-table"
+export { TeacherModal, TeacherTable ,StudentTable, StudentModal , CourseModal, CourseTable , 
+GroupModal , GroupTable, CategoryModal, CategoryTable, BrandModal, BrandTable };

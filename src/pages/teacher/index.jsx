@@ -31,7 +31,7 @@ const Teacher = () => {
     setOpen(true);
   };
 
-  // O'qituvchini o'chirish funksiyasi
+
   const handleDelete = async (id) => {
     try {
       await axios.delete(`http://localhost:3000/teacher/${id}`);

@@ -7,5 +7,6 @@ import Group from "./group"
 import Course from "./course"
 import SignUp from "./sign-up"
 import Category from "./category"
-export { SignIn , AdminLayout, StudentLayout, Student, Teacher, Group, Course , SignUp, Category }
+import Brand from "./brand"
+export { SignIn , AdminLayout, StudentLayout, Student, Teacher, Group, Course , SignUp, Category, Brand }
 
